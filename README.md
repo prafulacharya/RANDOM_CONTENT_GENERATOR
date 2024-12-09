@@ -13,7 +13,7 @@ This library provides utilities to generate mock data for testing purposes, incl
      from randomcontent import generate_number
      generate_number(type="int", min=1, max=100)  # Generates an random integer between 1 and 100
      generate_number(type="probability") # Generates an random probability between 0 and 1
-     generate_number(type="gauss",mean=0, std_dev=1) # Generates an random number from Gaussian distribution
+     generate_number(type="gaussian",mean=0, std_dev=1) # Generates an random number from Gaussian distribution
 
      ```
 
